@@ -21,10 +21,17 @@ $$
 \mathbf{A = E \Lambda E^{-1}}
 $$
 where $\mathbf{E}$ is the square $n$ by $n$ matrix whose $i$'th column is the eigenvector $e_i$/ of $\mathbf{A}$ and $\mathbf{\Lambda}$ is the diagonal matrix whose diagonal elements are the corresponding eigenvalues 
-i.e $\mathbf{\Lambda}_{i,i}= \lambda_i$.
+i.e $\mathbf{\Lambda}_{i,i}= \lambda_i$. Note that this is a special case of the \emph{spectral theorem}.
+
+
+\subsection{Singular Value Decomposition}
+Let $T \in \mathcal{L}_{V \to W}$ where $V$ and $W$ are two finite dimensional inner product spaces both over $\mathbb{C}$. Let $T^* \in \mathcal{L}_{W \to V}$ be the \emph{adjoint} of $T$ and recall that a map is called \emph{self-adjoint} 
+if it equals its adjoint. From this, one can deduce that the eigenvalues of $T^*T$ are non-negative. \newline \newline 
+Define the \emph{singular values} of $T$ to be the non-negative square roots of the eigenvalues of $T^*T$ in decreasing order, 
+each included as many times as the dimension of the corresponding eigenspace of $T^*T$. Some important properties of 
 
 
 \section{References}
-Hastie, T., Tibshirani, R., \& Friedman, J. (2009). The elements of statistical learning: Data mining, inference, and prediction (2nd ed.). Springer \newline \newline 
+Hastie, T., Tibshirani, R., \& Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer \newline \newline 
 Ma, Y., \& Fu, Y. (Eds.). (2011). Manifold Learning Theory and Applications. CRC Press.
 \end{document}

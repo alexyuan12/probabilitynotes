@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1756704255.63259 "/Users/alexanderyuan/Desktop/notes/PCA_notes.tex" "PCA_notes.pdf" "PCA_notes" 1756704255.87805 0
-  "/Users/alexanderyuan/Desktop/notes/PCA_notes.tex" 1756704255.16639 1625 82ee41230ea0f1bf23a1a3ed2a7a1ace ""
+["pdflatex"] 1756705958.38124 "/Users/alexanderyuan/Desktop/notes/PCA_notes.tex" "PCA_notes.pdf" "PCA_notes" 1756705958.63597 0
+  "/Users/alexanderyuan/Desktop/notes/PCA_notes.tex" 1756705958.21538 2342 2cdad0a5ef9b8c2eef69b2b7269170fb ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1741388039 1004 54797486969f23fa377b128694d548df ""
@@ -35,8 +35,10 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1741388039 35752 024fb6c41858982481f6968b5fc26508 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1741388039 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1741388039 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1741388039 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1741388039 32716 08e384dc442464e7285e891af9f45947 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1741388039 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1741388039 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1741388039 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amscls/amsthm.sty" 1741388039 12594 0d51ac3a545aaaa555021326ff22a6cc ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1741388039 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
@@ -61,8 +63,8 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1741388039 678 4792914a8f45be57bb98413425e4c7af ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346140 981dae4097bc43850a521b8b1e36e95f ""
-  "PCA_notes.aux" 1756704255.84766 439 cc3204590d24da02444a21ea295e4027 "pdflatex"
-  "PCA_notes.tex" 1756704255.16639 1625 82ee41230ea0f1bf23a1a3ed2a7a1ace ""
+  "PCA_notes.aux" 1756705958.60308 560 71d2ac5b0776f7e7e5240b0346886610 "pdflatex"
+  "PCA_notes.tex" 1756705958.21538 2342 2cdad0a5ef9b8c2eef69b2b7269170fb ""
   (generated)
   "PCA_notes.aux"
   "PCA_notes.log"
