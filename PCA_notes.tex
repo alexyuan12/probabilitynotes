@@ -3,17 +3,28 @@
 \usepackage{amsmath,amssymb,amsthm}
 \title{Principal Components Analysis Notes}
 \author{Alexander Yuan}
-\date{August 2025}
+\date{August 31 2025}
 
 \begin{document}
  
 \maketitle
 
 \section{Background}
+\subsection{History}
 \emph{Principal Componnents Analysis (PCA)} goes all the way back to Harold Hotelling in the 1933 when the cutting edge topics in statistics at the time were the multivariate methods we know today. It was first 
 introduced as a technique for obtaining a smaller set of orthogonal linear projections of a single collection of correlated variables where the projections are ordered by decreasing variance. Note that it is also
 called the \emph{Karhunen-Loève transform} in communications theory and \emph{empirical orthogonal functions} in atomspheric science.
 
-\section{References}
+\subsection{Eigendecomposition}
+Let $\mathbf{A}$ be a square $n$ by $n$ matrix with $n$ linearly independent eigenvectors $e_i \text{ for } i = 1, \ldots , n$. Then $\mathbf{A}$ can be factored as 
+$$
+\mathbf{A = E \Lambda E^{-1}}
+$$
+where $\mathbf{E}$ is the square $n$ by $n$ matrix whose $i$'th column is the eigenvector $e_i$/ of $\mathbf{A}$ and $\mathbf{\Lambda}$ is the diagonal matrix whose diagonal elements are the corresponding eigenvalues 
+i.e $\mathbf{\Lambda}_{i,i}= \lambda_i$.
 
+
+\section{References}
+Hastie, T., Tibshirani, R., & Friedman, J. (2009). The elements of statistical learning: Data mining, inference, and prediction (2nd ed.). Springer \newline \newline 
+Ma, Y., \& Fu, Y. (Eds.). (2011). Manifold Learning Theory and Applications. CRC Press.
 \end{document}
