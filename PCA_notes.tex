@@ -3,7 +3,7 @@
 \usepackage{amsmath,amssymb,amsthm}
 \title{Principal Components Analysis Notes}
 \author{Alexander Yuan}
-\date{August 31 2025}
+\date{September 13 2025}
 
 \begin{document}
  
@@ -24,14 +24,46 @@ where $\mathbf{E}$ is the square $n$ by $n$ matrix whose $i$'th column is the ei
 i.e $\mathbf{\Lambda}_{i,i}= \lambda_i$. Note that this is a special case of the \emph{spectral theorem}.
 
 
-\subsection{Singular Value Decomposition}
+\subsection{Singular Value Decomposition (SVD)}
 Let $T \in \mathcal{L}_{V \to W}$ where $V$ and $W$ are two finite dimensional inner product spaces both over $\mathbb{C}$. Let $T^* \in \mathcal{L}_{W \to V}$ be the \emph{adjoint} of $T$ and recall that a map is called \emph{self-adjoint} 
 if it equals its adjoint. From this, one can deduce that the eigenvalues of $T^*T$ are non-negative. \newline \newline 
 Define the \emph{singular values} of $T$ to be the non-negative square roots of the eigenvalues of $T^*T$ in decreasing order, 
-each included as many times as the dimension of the corresponding eigenspace of $T^*T$. Some important properties of 
-
-
+each included as many times as the dimension of the corresponding eigenspace of $T^*T$. Some important properties of $T^*T$ to be aware of is: 
+$$
+\text{i) }T^*T \text{ is self-adjoint and } \langle T^*Tv,v\rangle\geq 0 \text{ for all }v \in V
+$$
+$$
+\text{ii) null } T^*T = \text{null } T
+$$
+$$
+\text{iii) range }T^*T= \text{range }T^*
+$$
+$$
+\text{iv) dim range }T = \text{dim range }T^* = \text{dim range }T^*T
+$$
+\newline \newline
+We can also characterize positive singular values:
+$$
+\text{i) }T \text{is injective } \iff \text{0 is not a singular value of }T
+$$
+$$
+\text{ii) the number of positive singular values of $T$ = dim range }T  
+$$
+$$
+\text{iii) }T \text{ is surjective} \iff \text{number of positive singular values of $T$ = dim }W
+$$
+\newline \newline
+Before we state the result, note that SVD is a fundamental result as it shows every linear map from $V$ to $W$ has a clean description in terms of its singular values
+and orthonormal lists in $V$ and $W$. Techniques exist for approximating eigenvalues and eigenvectors of positive operators which makes SVD very useful.
+\newline \newline
+Suppose $T \in \mathcal{L}_{V \to W}$ and let the positive singular values of $T$ be $s_1, s_2, \ldots, s_m$. Then there exists 
+orthonormal lists $e_1, \ldots, e_m$ in $V$ and $f_1, \ldots f_m$ in $W$ such that 
+$$
+Tv = s_1\langle v,e_1\rangle f_1+ \ldots + s_m \langle v,e_m\rangle f_m
+$$
+for every $v \in V$
 \section{References}
+Axler, S. (2024). Linear Algebra Done Right (4th ed.). Springer. \newline \newline
 Hastie, T., Tibshirani, R., \& Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer \newline \newline 
 Ma, Y., \& Fu, Y. (Eds.). (2011). Manifold Learning Theory and Applications. CRC Press.
 \end{document}
