@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{amsmath,amssymb,amsthm}
-\title{Principal Components Analysis Notes}
+\title{Principal Components Analysis}
 \author{Alexander Yuan}
 \date{September 13 2025}
 
@@ -11,7 +11,7 @@
 
 \section{Background}
 \subsection{History}
-\emph{Principal Componnents Analysis (PCA)} goes all the way back to Harold Hotelling in the 1933 when the cutting edge topics in statistics at the time were the multivariate methods we know today. It was first 
+\emph{Principal Components Analysis (PCA)} goes all the way back to Harold Hotelling in the 1933 when the cutting edge topics in statistics at the time were the multivariate methods we know today. It was first 
 introduced as a technique for obtaining a smaller set of orthogonal linear projections of a single collection of correlated variables where the projections are ordered by decreasing variance. Note that it is also
 called the \emph{Karhunen-Loève transform} in communications theory and \emph{empirical orthogonal functions} in atomspheric science.
 
@@ -44,7 +44,7 @@ $$
 \newline \newline
 We can also characterize positive singular values:
 $$
-\text{i) }T \text{is injective } \iff \text{0 is not a singular value of }T
+\text{i) }T \text{ is injective } \iff \text{0 is not a singular value of }T
 $$
 $$
 \text{ii) the number of positive singular values of $T$ = dim range }T  
@@ -61,7 +61,7 @@ orthonormal lists $e_1, \ldots, e_m$ in $V$ and $f_1, \ldots f_m$ in $W$ such th
 $$
 Tv = s_1\langle v,e_1\rangle f_1+ \ldots + s_m \langle v,e_m\rangle f_m
 $$
-for every $v \in V$
+for every $v \in V$.
 \section{References}
 Axler, S. (2024). Linear Algebra Done Right (4th ed.). Springer. \newline \newline
 Hastie, T., Tibshirani, R., \& Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer \newline \newline 

@@ -3,13 +3,13 @@
 \usepackage{amsmath,amssymb,amsthm, graphicx}
 \title{Probability and Measure Notes}
 \author{Alexander Yuan}
-\date{August 31 2025}
+\date{September 22 2025}
 
 \begin{document}
 
 \maketitle
-\section{Measure Theory}
 
+\section{Measure Theory}
 \subsection{Sigma Algebras}
 Suppose $\Omega$ is a non-empty set and a collection $\mathcal{F} \subset \mathcal{P}(\Omega)$ satisfy: \newline \newline
  1) $\Omega \in \mathcal{F}$ \newline \newline
@@ -782,13 +782,31 @@ Let $\phi, \ \psi$ be simple functions in $L^+$, then the following hold:
 \text{3) If } \phi \leq \psi, \text{ then } \int \phi \leq \int \psi
 \]
 \[
-\text{ d) the map } A\mapsto\int_A\phi d\mu \text{ is a measure on } \mathcal{F}.
+\text{ 4) the map } A\mapsto\int_A\phi d\mu \text{ is a measure on } \mathcal{F}.
 \]
 \textit{Proof.} \newline \newline
-1) follows from the linearity of a sum. For 2), define $\sum_{j=1}^na_j\mathbb{I}_{E_j}$ and $\sum_{i=1}^nb_i\mathbb{I}_{F_i}$ be the standard representations of $\phi$ and $\psi$. Then $E_j = \bigcup_{i=1}^m(E_j\cap F_i)$ and $F_i = \bigcup_{j=1}^m(E_j\cap F_i)$. Note that $\bigcup_{j=1}E_j=\bigcup_{i=1}F_i=\Omega$
-
+1) follows from the linearity of a sum. For 2), define $\sum_{j=1}^na_j\mathbb{I}_{E_j}$ and $\sum_{i=1}^nb_i\mathbb{I}_{F_i}$ to be the standard representations of $\phi$ and $\psi$. 
+Then $E_j = \bigcup_{i=1}^m(E_j\cap F_i)$ and $F_i = \bigcup_{j=1}^m(E_j\cap F_i)$. Note that $\bigcup_{j=1}E_j=\bigcup_{i=1}F_i=\Omega$ where the unions are disjoint. Hence by finite additivity, 
+\[
+\int \phi + \int \psi = \sum_{j,k}(a_j+b_k)\mu(E_j \cap F_k)
+\]
+\[
+=\int \psi + \phi
+\]
+Moreover, if $\psi \leq \phi$, then $a_j\leq b_k$ whenever $E_j \cap F_k \neq \emptyset $, so 
+\[
+\int \phi= \sum_{j,k}a_j\mu(E_j\cap F_k) \leq \sum_{j,k}b_k\mu(E_j \cap F_k) = \int \psi
+\]
+showing 3). Finally, let $\{A_k\}$ be a disjoint sequence in $\mathcal{F}$ and $A= \bigcup_{k=1}^\infty A_k$:
+\[
+\int_A\phi= \sum_ja_j\mu(A\cap E_j)= \sum_{j,k}a_j\mu(A_k \cap E_j)= \sum_k\int_{A_k}\phi
+\]
+which establishes 4).\newline \newline
+From this, we can extend the integral to all functions $f \in L^+$ by defining 
+\[
+\int f d\mu = \sup \{ \int \phi d\mu: 0 \leq \phi \leq f, \phi \text{ simple}\}
+\]
 \section{Probability Theory}
-
 \subsection{Random Variables}
 Let $(\Omega,\mathcal{F}, \mathbb{P})$ be a probability space. A function $X:\Omega\to\mathbb{R}$ is a random variable, if the event $X^{-1}((-\infty,a]):=\{\omega:X(\omega)\leq a\}\in\mathcal{F}$ for each $a \in \mathbb{R}$. This is equivalent to the stronger condition: $f^{-1}(A)\in\mathcal{F}$ for all \emph{Borel sets} $A\in\mathcal{B}_\mathbb{R}$  \newline \newline
 Some argue that probability theory begins and measure theory ends with the definition of independence. If one only knows undergraduate probability theory, one's intuition might come from the easily envisioned property that the occurrence or non-occurrence of an event has no effect on our estimate of the probability that an independent event will or not occur.
