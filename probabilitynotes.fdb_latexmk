@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1759960085.85627 "/Users/alexanderyuan/Desktop/notes/probabilitynotes.tex" "probabilitynotes.pdf" "probabilitynotes" 1759960086.31123 0
-  "/Users/alexanderyuan/Desktop/notes/probabilitynotes.tex" 1759960085.53588 71363 9beca9f3e257d4cb842fe964a240703f ""
+["pdflatex"] 1759960236.48752 "/Users/alexanderyuan/Desktop/notes/probabilitynotes.tex" "probabilitynotes.pdf" "probabilitynotes" 1759960236.93627 0
+  "/Users/alexanderyuan/Desktop/notes/probabilitynotes.tex" 1759960236.03821 71366 b599ba14b74301fa8f05770472a59bae ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1741388039 1004 54797486969f23fa377b128694d548df ""
@@ -67,8 +67,8 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346140 981dae4097bc43850a521b8b1e36e95f ""
   "Screenshot 2025-08-14 at 6.38.17 PM.png" 1756116482.51123 75171 16561971948c7873e94af47a99ba6d73 ""
-  "probabilitynotes.aux" 1759960086.24351 10057 7593ac8dd59a2c799e1f2d17efae57dd "pdflatex"
-  "probabilitynotes.tex" 1759960085.53588 71363 9beca9f3e257d4cb842fe964a240703f ""
+  "probabilitynotes.aux" 1759960236.86705 10057 7593ac8dd59a2c799e1f2d17efae57dd "pdflatex"
+  "probabilitynotes.tex" 1759960236.03821 71366 b599ba14b74301fa8f05770472a59bae ""
   (generated)
   "probabilitynotes.aux"
   "probabilitynotes.log"
