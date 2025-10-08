@@ -55,13 +55,19 @@ $$
 \newline \newline
 Before we state the result, note that SVD is a fundamental result as it shows every linear map from $V$ to $W$ has a clean description in terms of its singular values
 and orthonormal lists in $V$ and $W$. Techniques exist for approximating eigenvalues and eigenvectors of positive operators which makes SVD very useful.
-\newline \newline
+\subsubsection{SVD}
 Suppose $T \in \mathcal{L}_{V \to W}$ and let the positive singular values of $T$ be $s_1, s_2, \ldots, s_m$. Then there exists 
 orthonormal lists $e_1, \ldots, e_m$ in $V$ and $f_1, \ldots f_m$ in $W$ such that 
 $$
 Tv = s_1\langle v,e_1\rangle f_1+ \ldots + s_m \langle v,e_m\rangle f_m
 $$
-for every $v \in V$.
+for every $v \in V$. 
+\subsubsection{SVD Matrix Form}
+One can also frame this in terms of matricies. Suppose $A$ is a $p$ by $n$ matrix of rank at least 1. Then there exists a $p$ by $m$ matrix $B$ with orthonormal columms 
+(with respect to the standard euclidean product), a $m$ by $m$ matrix D with postiive diagonal entries 
+\section{Principal Components Analysis}
+Principal Components are a sequence of projections of the data, mutually uncorrelated, and ordered in variance. Another perspective is to consider the principal components as linear manifolds 
+approximating a set of $N$ points $x_i \in \mathbb{R}^p$. \newline \newline
 \section{References}
 Axler, S. (2024). Linear Algebra Done Right (4th ed.). Springer. \newline \newline
 Hastie, T., Tibshirani, R., \& Friedman, J. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer \newline \newline 

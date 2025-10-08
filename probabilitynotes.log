@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  23 SEP 2025 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  8 OCT 2025 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -359,11 +359,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--228
 
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 251--258
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 251--258
 
  []
@@ -884,93 +879,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 803--806
 
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 811--814
+Underfull \hbox (badness 10000) in paragraph at lines 815--818
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--825
+Underfull \hbox (badness 10000) in paragraph at lines 825--829
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--825
+Underfull \hbox (badness 10000) in paragraph at lines 825--829
 
  []
 
 
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 832--835
+Underfull \hbox (badness 10000) in paragraph at lines 836--839
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--844
+Underfull \hbox (badness 10000) in paragraph at lines 841--848
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--844
+Underfull \hbox (badness 10000) in paragraph at lines 841--848
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--844
+Underfull \hbox (badness 10000) in paragraph at lines 841--848
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--844
+Underfull \hbox (badness 10000) in paragraph at lines 841--848
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--844
+Underfull \hbox (badness 10000) in paragraph at lines 841--848
 
  []
 
 
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 849--851
+Underfull \hbox (badness 10000) in paragraph at lines 853--855
 
  []
 
 
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 888--890
+Underfull \hbox (badness 10000) in paragraph at lines 892--894
 
  []
 
 
-Overfull \hbox (19.00386pt too wide) in paragraph at lines 892--895
+Overfull \hbox (19.00386pt too wide) in paragraph at lines 896--899
 $\OML/cmm/m/it/10 S[]$ \OT1/cmr/m/n/10 is a func-tion of $\OML/cmm/m/it/10 X[]; [] ; X[]$\OT1/cmr/m/n/10 , so its con-di-tional ex-pec-ta-tion given $\OML/cmm/m/it/10 X[]; [] ; X[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--895
+Underfull \hbox (badness 10000) in paragraph at lines 896--899
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--913
+Underfull \hbox (badness 10000) in paragraph at lines 914--917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--913
+Underfull \hbox (badness 10000) in paragraph at lines 914--917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--913
+Underfull \hbox (badness 10000) in paragraph at lines 914--917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--913
+Underfull \hbox (badness 10000) in paragraph at lines 914--917
 
  []
 
@@ -993,7 +988,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,13n,65p,1090b,220s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on probabilitynotes.pdf (32 pages, 342861 bytes).
+Output written on probabilitynotes.pdf (32 pages, 343099 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  124 compressed objects within 2 object streams
